@@ -1,0 +1,138 @@
+{
+  "cards": [
+    {
+      "applicationId": "1da79e33-e8b3-4372-a9a7-e2f8115d0605",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "macro_presets_open_application_win",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "onboardable": false,
+        "openFileFolder": {
+          "appName": "switch_to_1",
+          "isFolderMode": false,
+          "path": ""
+        },
+        "repeatPeriod": 0,
+        "type": "OPEN_FILE_FOLDER"
+      },
+      "name": "ASSIGNMENT_NAME_OPEN_APPLICATION",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": true,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 65540
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "inputSequence": {
+          "componentLists": [
+            {
+              "components": [
+                {
+                  "delay": {
+                    "durationMs": 21
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Ctrl",
+                    "hidUsage": 224,
+                    "isDown": true,
+                    "virtualKeyId": "VK_LCONTROL"
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Alt",
+                    "hidUsage": 226,
+                    "isDown": true,
+                    "virtualKeyId": "VK_LMENU"
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Num *",
+                    "hidUsage": 85,
+                    "isDown": true,
+                    "virtualKeyId": "VK_MULTIPLY"
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Num *",
+                    "hidUsage": 85,
+                    "isDown": false,
+                    "virtualKeyId": "VK_MULTIPLY"
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Alt",
+                    "hidUsage": 226,
+                    "isDown": false,
+                    "virtualKeyId": "VK_LMENU"
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Ctrl",
+                    "hidUsage": 224,
+                    "isDown": false,
+                    "virtualKeyId": "VK_LCONTROL"
+                  }
+                }
+              ]
+            }
+          ],
+          "defaultDelay": 21,
+          "showUpDown": false,
+          "useDefaultDelay": false
+        },
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "INPUT_SEQUENCE"
+      },
+      "name": "",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 0
+    }
+  ],
+  "categories": [],
+  "description": "",
+  "iconPath": "",
+  "id": "b8d5eb75-921a-4db6-9ba6-b16b212b9527",
+  "lastEditTimestamp": "1707294247796",
+  "name": "Switch PC",
+  "originType": "PREDEFINED",
+  "platform": "WIN",
+  "predefinedIdRef": "",
+  "state": "ACTIVE",
+  "usageCount": 0
+}
